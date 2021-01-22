@@ -7,7 +7,7 @@
  
  Single file executable (ComfileGPIO) created with pyinstaller.
  
- Runs as full screen when launched. <ESC> to exit full screen mode.
+ Runs in full screen when launched. Press Escape to exit full screen mode.
  
  * 100% pure Python3
  * Uses tkinter
