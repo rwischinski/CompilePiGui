@@ -1,2 +1,17 @@
 # CompilePiGui
- Python GUI to control CP-IO22-A4-2 - Digital & Analog IO Board
+ Python GUI for CompilePi (http://http://comfiletech.com/linux-panel-pc/) to display status/control CP-IO22-A4-2 - Digital & Analog IO Board.
+ Also successfully tested (but not included in executable): Modbus RTU Client, using ComfilePi's RS485 port.
+ Single file executable (ComfileGPIO) created with pyinstaller.
+ Runs as full screen when launched. <ESC> to exit full screen mode.
+ 
+ * 100% pure Python3
+ * Uses tkinter
+ * uses PIGPIO daemon (by default installed and running on ComfilePi) for GPIO communication
+ * uses I2C for ADS1115 (4 analog inputs) and MCP4725 (2 analog outputs) communication
+ * all GPIO communication and GUI updates run in separate thread; results in very responsive interface
+ * includes the following widgets:
+   * Indicator: LED
+   * Gauge
+   * Slide switch
+   * Numeric popup keypad
+   * Alphanumeric popup keypad
