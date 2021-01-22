@@ -4,7 +4,9 @@
  ComfilePi is an industrial Panel PC, using Raspberry's Compute module.
  
  Also successfully tested (but not included in executable): Modbus RTU Client, using ComfilePi's RS485 port.
+ 
  Single file executable (ComfileGPIO) created with pyinstaller.
+ 
  Runs as full screen when launched. <ESC> to exit full screen mode.
  
  * 100% pure Python3
