@@ -1,4 +1,4 @@
-# CompilePiGui
+# ComfilePiGui
  Python GUI for ComfilePi (http://comfiletech.com/linux-panel-pc/) to display status/control CP-IO22-A4-2 - Digital & Analog IO Board.
  
  ComfilePi is an industrial Panel PC, using Raspberry's Compute module.
